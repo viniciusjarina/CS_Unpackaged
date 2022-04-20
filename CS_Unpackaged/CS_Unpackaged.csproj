@@ -27,8 +27,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22000.197" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.1-20220316.0-CI-stable" />
+    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.6.1" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22581-preview" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.0-20220414.0-CI-experimental" />
     <Manifest Include="$(ApplicationManifest)" />
   </ItemGroup>
 
